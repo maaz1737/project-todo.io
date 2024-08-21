@@ -1,0 +1,65 @@
+body {
+
+    font-family: arial;
+
+}
+
+div {
+    margin: 5px 10px;
+}
+
+#main-heading {
+
+    text-align: center;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    text-align: center;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+
+
+.input-value,
+.date {
+
+    font-size: 15px;
+    padding: 15px;
+
+}
+.addbtn{
+    background-color: green;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    height: 30px;
+    width: 80px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.addbtn:hover{
+    transform: scale(1.1);
+}
+.delbtn{
+    background-color: rgb(159, 12, 12);
+    color: white;
+    font-size: 1.1em;
+    font-weight: 300;
+    height: 30px;
+    width: 80px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.delbtn:hover{
+    box-shadow: 5px 5px 5px #373636;
+}
